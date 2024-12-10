@@ -12,8 +12,8 @@ import tensorflow as tf
 import altair as alt
 
 # Title for Streamlit app
-st.title("Tumor Classification AI")
-st.write("Upload a medical image to classify the type of tumor or confirm healthy cells.")
+st.title("MRI Scan Brain Tumor Classification AI")
+st.write("Upload a MRI medical image to classify the type of Brain tumor or confirm healthy cells.")
 
 # Load the model
 @st.cache_resource  # Updated decorator
