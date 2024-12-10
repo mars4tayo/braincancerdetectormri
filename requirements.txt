@@ -1,0 +1,6 @@
+streamlit==1.11.0
+numpy
+matplotlib
+tensorflow
+altair==4.2.0
+pyodbc==4.0.39
