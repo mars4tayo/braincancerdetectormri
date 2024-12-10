@@ -16,7 +16,7 @@ st.title("Tumor Classification AI")
 st.write("Upload a medical image to classify the type of tumor or confirm healthy cells.")
 
 # Load the model
-@st.cache_data  # Updated decorator
+@st.cache_resource  # Updated decorator
 def load_model():
     return tf.keras.models.load_model('bestmodel2.keras')
 
